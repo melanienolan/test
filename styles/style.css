@@ -1,0 +1,283 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+
+/**** Background image ****/
+
+.bg {
+	background: url(../img/main-bg.png) center center no-repeat;
+	background-size: cover;
+	width: 1028px;
+	margin: 0 auto;
+	position: relative;
+}
+
+/**** Sidebar *****/
+
+#sidebar {
+	background: #fff;
+	color: #333;
+	width: 675px;
+	height: 40px;
+	position: absolute;
+	top: 377px;
+	box-shadow: -2px 1px 2px #333;
+	transform: rotate(90deg);
+	float: left;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+	z-index: 10;
+}
+.closed {
+	left: 671px;
+}
+.open {
+	left: 390px;
+}
+#leftarrow {
+	background: url(../img/arrowl.png) center center;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	transform: rotate(-90deg);
+	margin-right: 10px;
+}
+#rightarrow {
+	background: url(../img/arrowr.png) center center;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	transform: rotate(-90deg);
+	margin-left: 10px;
+}
+#sidebarlist {
+	width: 280px;
+	height: 675px;
+	background: #a982e2;
+	font-weight: bold;
+	z-index: 0;
+	position: absolute;
+	top: 60px;
+	right: 0;
+	z-index: 10;
+}
+.notvisible {
+	display: none;
+}
+#sidebarlist li {
+	list-style: none;
+	width: 280px;
+	height: 60px;
+	border-top: 1px solid #fff;
+	padding: 10px 40px;
+	margin: auto;
+}
+#sidebarlist li a {
+	color: #fff;
+	display: block;
+	width: 220px;
+	height: 100px;
+	margin: auto;
+}
+#sidebarlist li:first-of-type {
+	background: #4e6cd9;
+}
+#sidebarlist li:nth-of-type(2) {
+	background: #4e6cd9;
+}
+#sidebarlist li:nth-of-type(3) {
+	background: #4e6cd9;
+}
+#sidebarlist li:nth-of-type(4) {
+	background: #4e9fd2;
+}
+#sidebarlist li:nth-of-type(5) {
+	background: #4e9fd2;
+}
+#sidebarlist li:nth-of-type(6) {
+	background: #4e9fd2;
+}
+#sidebarlist li:nth-of-type(7) {
+	background: #a982e2;
+}
+#sidebarlist li:nth-of-type(8) {
+	background: #a982e2;
+}
+#sidebarlist li:nth-of-type(9) {
+	background: #a982e2;
+}
+
+
+/**** Header ****/
+
+header {
+	background: #333;
+	width: 100%;
+	height: 60px;
+	position: relative;
+}
+header a {
+	text-transform: uppercase;
+	color: #fff;
+	
+	font-size: 16px;
+}
+.restart {
+	width: 160px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.tab {
+	position: absolute;
+	bottom: 0;
+	left: 160px;
+	background: #fff;
+	height: 28px;
+	width: 416px;
+	border-left: 28px solid #333;
+	border-right: 28px solid #333;
+	border-bottom: 28px solid #dadada; 
+}
+nav {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+nav a {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+/**** Main content div ****/
+
+.content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+/**** Top part of main content ****/
+.heading {
+	width: 60%;
+	margin-left: 20px;
+}
+.heading p {
+	font-size: 20px;
+}
+h1 {
+	color: #3151c1;
+	font-size: 30px;
+}
+/**** Three text sections ****/
+
+.figures {
+	width: 930px;
+}
+.figure-content {
+	width: 33.333%;
+	height: 72px;
+	margin: auto;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	border-right: 1px #ccc solid;
+}
+.figure-content:last-of-type {
+	border: none;
+}
+h3 {
+	font-weight: normal;
+	font-size: 20px;
+}
+/**** Two large sections in main content ****/
+
+section {
+	width: 440px;
+	height: 370px;
+	float: left;
+	margin: 20px;
+	position: relative;
+}
+section p {
+	line-height: 1.6;
+} 
+section a {
+	position: absolute;
+	bottom: 20px;
+	width: 170px;
+	height: 25px;
+	background: #6b8bfe;
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+
+}
+section a img {
+	width: 16px;
+	display: inline-block;
+	margin: 5px 5px 0 5px;
+}
+.arrow {
+	width: 24px;
+	height: 24px;
+	position: absolute;
+}
+.left {
+	top: 155px;
+	left: -10px;
+	background: url(../img/arrowl.png) center center;
+}
+.right {
+	top: 155px;
+	right: 10px;
+	background: url(../img/arrowr.png) center center;
+}
+#graph {
+	width: 336px;
+	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 40px;
+	z-index: 5;
+}
+/**** Footnote under main sections ****/
+
+#footnote {
+	clear: both;
+	font-size: 10px;
+	padding-bottom: 20px;
+}
+hr {
+	margin: 0;
+	color: #333;
+}
+
+/**** Footer ****/
+
+footer {
+	height: 63px;
+	width: 100%;
+	background: url(../img/footer.png) center center no-repeat;
+	background-size: cover;
+}

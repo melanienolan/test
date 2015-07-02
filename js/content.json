@@ -1,0 +1,18 @@
+{
+	"heading" : {
+		"top" : "Improved quality of life",
+		"bottom" : "Helping patients feel less limited and less of a burden at home and at work"
+	},
+	"content" : {
+		"left" : [
+			"Patients on Product X therapy significantly improve in all domains of the Migraine-specific QoL Questionnaire (MSQ)",
+			"Role restriction: Fewer restrictions in family life, leisure and exercise, work, concentration and energy",
+			"Role prevention: Fewer limiations on daily activities and tasks",
+			"Between-group difference: 1.5X the MID of 4.64"
+		],
+		"right" : {
+			"image" : "img/resistance.png",
+			"title" : "0% Resistance over 6 years"
+		}
+	}
+}
